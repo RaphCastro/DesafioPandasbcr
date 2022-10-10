@@ -2,7 +2,7 @@ import pandas as pd
 
 # CONCATENAÇÃO DOS CSVS
 df = pd.concat(
-    map(pd.read_csv, ['quality_of_life.csv', 'population_density.csv', 'life_expectancy.csv']),
+    map(pd.read_csv, ['../CSV/quality_of_life.csv', '../CSV/population_density.csv', '../CSV/life_expectancy.csv']),
     ignore_index = True
     )
 

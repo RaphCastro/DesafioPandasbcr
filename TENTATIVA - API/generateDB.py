@@ -266,7 +266,7 @@ def delete_country(country_id):
 
 
 
-# df = pd.read_csv("countries_of_the_world.csv", decimal=',')
+# df = pd.read_csv("../CSV/countries_of_the_world.csv", decimal=',')", decimal=',')
 # dfClean = df.drop(['Coastline (coast/area ratio)', 'GDP ($ per capita)'], axis = 'columns')
 # dfClean.to_sql('countries',connect_to_db(), if_exists='append', index = False)
 

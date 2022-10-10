@@ -1,10 +1,7 @@
 import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-
 
 #NOTE:Abertura de arquivo
-df = pd.read_csv("countries_of_the_world.csv", decimal=',')
+df = pd.read_csv("../CSV/countries_of_the_world.csv", decimal=',')
 
 #Criando dicionário vazio para se povoar com dados filtrados
 obj = {}

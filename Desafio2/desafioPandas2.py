@@ -1,7 +1,8 @@
 import pandas as pd
 
+
 # LENDO CSV
-df = pd.read_csv("countries_of_the_world.csv", decimal=',')
+df = pd.read_csv("../CSV/countries_of_the_world.csv", decimal=',')
 
 # LISTAS DE CONTINENTES PARA USO NA FUNÇÃO
 
